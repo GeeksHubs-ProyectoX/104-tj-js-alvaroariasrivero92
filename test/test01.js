@@ -1,5 +1,6 @@
 function documento(inputs){
-  return null
+  let pattern = /^(?:[0-9]{8}[A-Z])$/;
+  return pattern.test(inputs);
 }
 
 module.exports = documento;
